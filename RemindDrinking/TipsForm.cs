@@ -83,7 +83,7 @@ namespace RemindDrinking
         private void TmrBackHome_Tick(object sender, EventArgs e)
         {
             index++;
-            if (index > 6)
+            if (index > 30)
             {
                 this.Close();
             }

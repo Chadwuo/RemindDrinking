@@ -34,5 +34,10 @@ namespace RemindDrinking
         {
             LabExplain.Text = "我是你的“提醒喝水小助手-超超”\n我将会在接下来的日子里，每天守护在你身边提醒你喝水。\n希望你在看到提示消息的时候可以按照提示，喝一杯水！";
         }
+
+        private void AboutMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("喝水提醒小助手，已经正常启动。愿你有个美好的一天！\n\n\t\t\t\twrite by micahh");
+        }
     }
 }
