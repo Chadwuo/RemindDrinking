@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemindDrinking", "RemindDrinking\RemindDrinking.csproj", "{29BAEBAA-C5A7-4F30-A810-0D3CE8FC4931}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RemDrinkSetup", "RemDrinkSetup\RemDrinkSetup.vdproj", "{F1F62FAB-6AD8-4A9C-9FDD-08B2BB1C4C93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29BAEBAA-C5A7-4F30-A810-0D3CE8FC4931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BAEBAA-C5A7-4F30-A810-0D3CE8FC4931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BAEBAA-C5A7-4F30-A810-0D3CE8FC4931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BAEBAA-C5A7-4F30-A810-0D3CE8FC4931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F62FAB-6AD8-4A9C-9FDD-08B2BB1C4C93}.Debug|Any CPU.ActiveCfg = Debug
+		{F1F62FAB-6AD8-4A9C-9FDD-08B2BB1C4C93}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACC254FD-2BB6-4E6B-8DA5-579D5698EDE1}
+	EndGlobalSection
+EndGlobal
