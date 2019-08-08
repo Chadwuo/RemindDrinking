@@ -27,12 +27,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3D165230E7E19450C37A18347B8E672E"
-        "OwnerKey" = "8:_243ACBEA9A374B9389001E9877133D96"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_6C44A03A906D44C5BF2B6FCBDA6DA256"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -45,7 +39,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A7FF658F5002466E8589B59EE764963D"
+        "MsmKey" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -69,6 +63,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F9BB56670F2A5B447F8555292CED7252"
+        "OwnerKey" = "8:_243ACBEA9A374B9389001E9877133D96"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_F6E188E363B24AAC8CCEC4F348F86EF8"
         "MsmSig" = "8:_UNDEFINED"
@@ -82,7 +82,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3D165230E7E19450C37A18347B8E672E"
+        "OwnerKey" = "8:_F9BB56670F2A5B447F8555292CED7252"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -110,6 +110,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -134,6 +142,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -215,37 +231,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3D165230E7E19450C37A18347B8E672E"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FluentScheduler, Version=5.3.0.0, Culture=neutral, PublicKeyToken=b76503528a14ebd1, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_3D165230E7E19450C37A18347B8E672E"
-                    {
-                    "Name" = "8:FluentScheduler.DLL"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:FluentScheduler.DLL"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C44A03A906D44C5BF2B6FCBDA6DA256"
             {
             "SourcePath" = "8:..\\RemindDrinking\\bin\\Release\\FluentScheduler.xml"
@@ -286,9 +271,9 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A7FF658F5002466E8589B59EE764963D"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A6521FF4CA744E65B076D23E6E5C463A"
             {
-            "SourcePath" = "8:C:\\Users\\Micahh\\Desktop\\DrinkIco.ico"
+            "SourcePath" = "8:..\\RemindDrinking\\DrinkIco.ico"
             "TargetName" = "8:DrinkIco.ico"
             "Tag" = "8:"
             "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
@@ -375,6 +360,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F9BB56670F2A5B447F8555292CED7252"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:FluentScheduler, Version=5.3.0.0, Culture=neutral, PublicKeyToken=b76503528a14ebd1, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F9BB56670F2A5B447F8555292CED7252"
+                    {
+                    "Name" = "8:FluentScheduler.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:FluentScheduler.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
@@ -587,7 +603,7 @@
             "Target" = "8:_243ACBEA9A374B9389001E9877133D96"
             "Folder" = "8:_7B1ED4C6F86C41EF82622C9D6D1C768D"
             "WorkingFolder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
-            "Icon" = "8:_A7FF658F5002466E8589B59EE764963D"
+            "Icon" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8CA22B41E6B64D71AFA4E360815A08E1"
@@ -601,7 +617,7 @@
             "Target" = "8:_243ACBEA9A374B9389001E9877133D96"
             "Folder" = "8:_97FE33C29E2940E9BF2A83AA5732240E"
             "WorkingFolder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
-            "Icon" = "8:_A7FF658F5002466E8589B59EE764963D"
+            "Icon" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_AB6A6C81A8934088B652EC11F5ABA8DD"
@@ -615,7 +631,7 @@
             "Target" = "8:_243ACBEA9A374B9389001E9877133D96"
             "Folder" = "8:_0548B620C5474C3080AEBCA83632EEFD"
             "WorkingFolder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
-            "Icon" = "8:_A7FF658F5002466E8589B59EE764963D"
+            "Icon" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CE2EF53458C94BB8A5DD84C14C00847D"
@@ -629,7 +645,7 @@
             "Target" = "8:_243ACBEA9A374B9389001E9877133D96"
             "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
             "WorkingFolder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
-            "Icon" = "8:_A7FF658F5002466E8589B59EE764963D"
+            "Icon" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F273013487EF4EB8AAC3A32432D621F1"

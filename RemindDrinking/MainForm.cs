@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RemindDrinking.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,12 +33,21 @@ namespace RemindDrinking
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            LabExplain.Text = "我是你的“提醒喝水小助手-超超”\n我将会在接下来的日子里，每天守护在你身边提醒你喝水。\n希望你在看到提示消息的时候可以按照提示，喝一杯水！";
+            //LabName.Text = Settings.Default.Name;
+            //LabExplain.Text = Settings.Default.Say;
         }
 
         private void AboutMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("喝水提醒小助手，已经正常启动。愿你有个美好的一天！\n\n\t\t\t\twrite by micahh");
+            MessageBox.Show("喝水提醒小助手，已经正常启动。愿你有个美好的一天！\n源码地址：https://github.com/micahh28/RemindDrinking \n\t\t\t\twrite by micahh");
+        }
+
+        private void ExitMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("再连续喝水两个星期，你就可以瘦成一道闪电了！确认要退出 小助手 吗？", "退出小助手", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }

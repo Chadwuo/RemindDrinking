@@ -122,7 +122,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DrinkIco.ico" />
+    <None Include="Resources\timg.jpg" />
     <None Include="Resources\MainBJ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Img\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
