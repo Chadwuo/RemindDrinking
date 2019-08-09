@@ -18,9 +18,10 @@ namespace RemindDrinking
             Schedule(() => new ShowTipsMsgJob(2)).ToRunEvery(1).Days().At(10, 00);
             Schedule(() => new ShowTipsMsgJob(3)).ToRunEvery(1).Days().At(11, 00);
             Schedule(() => new ShowTipsMsgJob(4)).ToRunEvery(1).Days().At(12, 00);
-            Schedule(() => new ShowTipsMsgJob(5)).ToRunEvery(1).Days().At(15, 00);
-            Schedule(() => new ShowTipsMsgJob(6)).ToRunEvery(1).Days().At(16, 00);
-            Schedule(() => new ShowTipsMsgJob(7)).ToRunEvery(1).Days().At(17, 00);
+            Schedule(() => new ShowTipsMsgJob(5)).ToRunEvery(1).Days().At(14, 00);
+            Schedule(() => new ShowTipsMsgJob(6)).ToRunEvery(1).Days().At(15, 00);
+            Schedule(() => new ShowTipsMsgJob(7)).ToRunEvery(1).Days().At(16, 00);
+            Schedule(() => new ShowTipsMsgJob(8)).ToRunEvery(1).Days().At(17, 00);
         }
         
     }

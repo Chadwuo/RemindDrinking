@@ -38,7 +38,7 @@ namespace RemindDrinking
                 case 2:
                     this.BackgroundImage = global::RemindDrinking.Properties.Resources._2;
                     this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-                    LabMsg.Text = "10:00  休息一会，补充一点水分吧！";
+                    LabMsg.Text = "10:00  小公主~ 要记得喝水哦！";
                     break;
                 case 3:
                     this.BackgroundImage = global::RemindDrinking.Properties.Resources._3;
@@ -53,22 +53,22 @@ namespace RemindDrinking
                 case 5:
                     this.BackgroundImage = global::RemindDrinking.Properties.Resources._5;
                     this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-                    LabMsg.Text = "15:00  起来走走，别忘记喝水！";
+                    LabMsg.Text = "14:00  喝最大杯的水，做最靓的仔！";
                     break;
                 case 6:
                     this.BackgroundImage = global::RemindDrinking.Properties.Resources._6;
                     this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-                    LabMsg.Text = "16:00  该起来活动活动喝杯水了！";
+                    LabMsg.Text = "15:00  娘娘，喝水的时间到了！";
                     break;
                 case 7:
                     this.BackgroundImage = global::RemindDrinking.Properties.Resources._7;
                     this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-                    LabMsg.Text = "17:00  还有一会就下班了，今天的八杯水任务完成了吗？";
+                    LabMsg.Text = "16:00  菇凉，喝口水吧！";
                     break;
                 case 8:
                     this.BackgroundImage = global::RemindDrinking.Properties.Resources._8;
                     this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-                    LabMsg.Text = "18:00  用最美的心情来迎接朝阳和第一杯水！";
+                    LabMsg.Text = "17:00  各部门注意，马上要下班了！";
                     break;
                 default:
                     break;
