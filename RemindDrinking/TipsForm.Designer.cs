@@ -43,10 +43,11 @@
             // 
             this.LabMsg.AutoSize = true;
             this.LabMsg.BackColor = System.Drawing.Color.Transparent;
-            this.LabMsg.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.LabMsg.Location = new System.Drawing.Point(227, 109);
+            this.LabMsg.Font = new System.Drawing.Font("隶书", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.LabMsg.ForeColor = System.Drawing.Color.White;
+            this.LabMsg.Location = new System.Drawing.Point(73, 179);
             this.LabMsg.Name = "LabMsg";
-            this.LabMsg.Size = new System.Drawing.Size(61, 29);
+            this.LabMsg.Size = new System.Drawing.Size(111, 56);
             this.LabMsg.TabIndex = 0;
             this.LabMsg.Text = "msg";
             // 
