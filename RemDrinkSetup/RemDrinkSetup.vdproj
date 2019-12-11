@@ -15,25 +15,109 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_10344A473F564D2CA5404DBA2504D215"
+        "MsmKey" = "8:_115E4118F4AA49A1BA50FC20439DF23C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_243ACBEA9A374B9389001E9877133D96"
+        "MsmKey" = "8:_263A1C48CA790A4EB476021C3409A027"
+        "OwnerKey" = "8:_738F300A78D548E18643E5CBC9959578"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2CF83E40440C4250B2EDE2851A98DA97"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6C44A03A906D44C5BF2B6FCBDA6DA256"
+        "MsmKey" = "8:_3A473880D70E4B70B0A27DCD30B4887E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_746FA37CE471429DBE6632888EEA27A6"
+        "MsmKey" = "8:_3B472001E6FB443F9ED604BA186C5ABD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_45AAA4C19A204307BE4B5B12B2078D86"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6490993BC770488E81191DEC0FFF26A8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6492F9EC0A784F1A81EAB91A3529417F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6532C666A8E2423C96FDEEB26F2FDF91"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_66CA10BE23CC4E78BDA5474692E74702"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6C6E8619B00544ACBF60666CAF016EA0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_71EB8FDBC3624A738998A3781C5BABC6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_738F300A78D548E18643E5CBC9959578"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_829B7B1E0A2642469D1CC2EF49323CCB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8C72D893C3D14A8CAD13EB26CA8A0C39"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8DB5BBE796BB4B3AA2F30A5C0E1E8860"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9187371AFA3D47B5890963558CAE708A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9E39C83C4E9646C784E2D1A1B3D7C6F5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,44 +129,116 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_A7F4E11CFA21435F928A4776D8AE4AAA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B4B34587C8D4492C9AE5974F140AD823"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B549790E662946159BC212D5FE01F8C7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B9F49BB41F78458393360C6FF4E0D56D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C64229CA57E94AA1BB0166F19C694C08"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C72EC3A4F9DCEA9A30671E1A9343CC11"
+        "OwnerKey" = "8:_738F300A78D548E18643E5CBC9959578"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C72EC3A4F9DCEA9A30671E1A9343CC11"
+        "OwnerKey" = "8:_CC7852CFB6F345E8BFBA5584BB1F5580"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C8D1F867735E4985B51DFE6045A7DD40"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CC7852CFB6F345E8BFBA5584BB1F5580"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DB161D88AAEE471B8CCFA3841812EF62"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_DCF4AF6487A240D9B0353B254154E9AE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F24FC36FDBBC4EEFB9A0EB9D5FBD67A3"
+        "MsmKey" = "8:_DF04505C90514A0DAC7926A4F7B35DF0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F6E188E363B24AAC8CCEC4F348F86EF8"
+        "MsmKey" = "8:_F1F79488B7834CAE881F245B46E1C3F3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F9BB56670F2A5B447F8555292CED7252"
-        "OwnerKey" = "8:_243ACBEA9A374B9389001E9877133D96"
+        "MsmKey" = "8:_F4AC6BDAC58F40289DE76F513A94E46F"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F6E188E363B24AAC8CCEC4F348F86EF8"
+        "OwnerKey" = "8:_263A1C48CA790A4EB476021C3409A027"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_243ACBEA9A374B9389001E9877133D96"
+        "OwnerKey" = "8:_CC7852CFB6F345E8BFBA5584BB1F5580"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F9BB56670F2A5B447F8555292CED7252"
+        "OwnerKey" = "8:_6492F9EC0A784F1A81EAB91A3529417F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_738F300A78D548E18643E5CBC9959578"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C72EC3A4F9DCEA9A30671E1A9343CC11"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -180,10 +336,81 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10344A473F564D2CA5404DBA2504D215"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_115E4118F4AA49A1BA50FC20439DF23C"
             {
-            "SourcePath" = "8:..\\RemindDrinking\\bin\\Release\\RemindDrinking.exe.config"
-            "TargetName" = "8:RemindDrinking.exe.config"
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\8.jpg"
+            "TargetName" = "8:8.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_263A1C48CA790A4EB476021C3409A027"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_263A1C48CA790A4EB476021C3409A027"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2CF83E40440C4250B2EDE2851A98DA97"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\17.jpg"
+            "TargetName" = "8:17.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3A473880D70E4B70B0A27DCD30B4887E"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\RemindDrinking.pdb"
+            "TargetName" = "8:RemindDrinking.pdb"
             "Tag" = "8:"
             "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
             "Condition" = "8:"
@@ -200,20 +427,80 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_243ACBEA9A374B9389001E9877133D96"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B472001E6FB443F9ED604BA186C5ABD"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\7.jpg"
+            "TargetName" = "8:7.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_45AAA4C19A204307BE4B5B12B2078D86"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\10.jpg"
+            "TargetName" = "8:10.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6490993BC770488E81191DEC0FFF26A8"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\2.jpg"
+            "TargetName" = "8:2.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6492F9EC0A784F1A81EAB91A3529417F"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:RemindDrinking, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:FluentScheduler, Version=5.3.0.0, Culture=neutral, PublicKeyToken=b76503528a14ebd1, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_243ACBEA9A374B9389001E9877133D96"
+                    "_6492F9EC0A784F1A81EAB91A3529417F"
                     {
-                    "Name" = "8:RemindDrinking.exe"
+                    "Name" = "8:FluentScheduler.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\RemindDrinking\\bin\\Release\\RemindDrinking.exe"
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\FluentScheduler.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
@@ -231,10 +518,90 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C44A03A906D44C5BF2B6FCBDA6DA256"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6532C666A8E2423C96FDEEB26F2FDF91"
             {
-            "SourcePath" = "8:..\\RemindDrinking\\bin\\Release\\FluentScheduler.xml"
-            "TargetName" = "8:FluentScheduler.xml"
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\21.jpg"
+            "TargetName" = "8:21.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_66CA10BE23CC4E78BDA5474692E74702"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\12.jpg"
+            "TargetName" = "8:12.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C6E8619B00544ACBF60666CAF016EA0"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\4.jpg"
+            "TargetName" = "8:4.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_71EB8FDBC3624A738998A3781C5BABC6"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\11.jpg"
+            "TargetName" = "8:11.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_829B7B1E0A2642469D1CC2EF49323CCB"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\FluentScheduler.pdb"
+            "TargetName" = "8:FluentScheduler.pdb"
             "Tag" = "8:"
             "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
             "Condition" = "8:"
@@ -251,12 +618,72 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_746FA37CE471429DBE6632888EEA27A6"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8C72D893C3D14A8CAD13EB26CA8A0C39"
             {
-            "SourcePath" = "8:..\\RemindDrinking\\bin\\Release\\FluentScheduler.pdb"
-            "TargetName" = "8:FluentScheduler.pdb"
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\14.jpg"
+            "TargetName" = "8:14.jpg"
             "Tag" = "8:"
-            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8DB5BBE796BB4B3AA2F30A5C0E1E8860"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\9.jpg"
+            "TargetName" = "8:9.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9187371AFA3D47B5890963558CAE708A"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\18.jpg"
+            "TargetName" = "8:18.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9E39C83C4E9646C784E2D1A1B3D7C6F5"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\15.jpg"
+            "TargetName" = "8:15.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -291,6 +718,208 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A7F4E11CFA21435F928A4776D8AE4AAA"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\1.jpg"
+            "TargetName" = "8:1.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B4B34587C8D4492C9AE5974F140AD823"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\16.jpg"
+            "TargetName" = "8:16.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B549790E662946159BC212D5FE01F8C7"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\3.jpg"
+            "TargetName" = "8:3.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B9F49BB41F78458393360C6FF4E0D56D"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\6.jpg"
+            "TargetName" = "8:6.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C64229CA57E94AA1BB0166F19C694C08"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\FluentScheduler.xml"
+            "TargetName" = "8:FluentScheduler.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C72EC3A4F9DCEA9A30671E1A9343CC11"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:FluentScheduler, Version=5.3.0.0, Culture=neutral, PublicKeyToken=b76503528a14ebd1, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C72EC3A4F9DCEA9A30671E1A9343CC11"
+                    {
+                    "Name" = "8:FluentScheduler.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:FluentScheduler.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C8D1F867735E4985B51DFE6045A7DD40"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\19.jpg"
+            "TargetName" = "8:19.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CC7852CFB6F345E8BFBA5584BB1F5580"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:RemindDrinking, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_CC7852CFB6F345E8BFBA5584BB1F5580"
+                    {
+                    "Name" = "8:RemindDrinking.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\RemindDrinking.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DB161D88AAEE471B8CCFA3841812EF62"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\20.jpg"
+            "TargetName" = "8:20.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DCF4AF6487A240D9B0353B254154E9AE"
             {
             "SourcePath" = "8:C:\\Windows\\System32\\msiexec.exe"
@@ -311,10 +940,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F24FC36FDBBC4EEFB9A0EB9D5FBD67A3"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DF04505C90514A0DAC7926A4F7B35DF0"
             {
-            "SourcePath" = "8:..\\RemindDrinking\\bin\\Release\\RemindDrinking.pdb"
-            "TargetName" = "8:RemindDrinking.pdb"
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\RemindDrinking.exe.config"
+            "TargetName" = "8:RemindDrinking.exe.config"
             "Tag" = "8:"
             "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
             "Condition" = "8:"
@@ -331,23 +960,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F6E188E363B24AAC8CCEC4F348F86EF8"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F1F79488B7834CAE881F245B46E1C3F3"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FluentScheduler, Version=5.3.0.0, Culture=neutral, PublicKeyToken=b76503528a14ebd1, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_F6E188E363B24AAC8CCEC4F348F86EF8"
-                    {
-                    "Name" = "8:FluentScheduler.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\RemindDrinking\\bin\\Release\\FluentScheduler.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\5.jpg"
+            "TargetName" = "8:5.jpg"
             "Tag" = "8:"
-            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -362,23 +980,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F9BB56670F2A5B447F8555292CED7252"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F4AC6BDAC58F40289DE76F513A94E46F"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FluentScheduler, Version=5.3.0.0, Culture=neutral, PublicKeyToken=b76503528a14ebd1, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_F9BB56670F2A5B447F8555292CED7252"
-                    {
-                    "Name" = "8:FluentScheduler.DLL"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:FluentScheduler.DLL"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\RemindDrinking\\bin\\Debug\\image\\13.jpg"
+            "TargetName" = "8:13.jpg"
             "Tag" = "8:"
-            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Folder" = "8:_47E89A28512346BB8D376288F594F1CE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -390,7 +997,7 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -420,6 +1027,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_47E89A28512346BB8D376288F594F1CE"
+                    {
+                    "Name" = "8:image"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_826E358E0229464B8D8308FC75F89941"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_97FE33C29E2940E9BF2A83AA5732240E"
@@ -472,7 +1090,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RemDrinkSetup"
         "ProductCode" = "8:{5105DCA0-16C9-4AB9-AC78-BB3EB8F892C7}"
-        "PackageCode" = "8:{1C8E5643-83CD-4A29-9C0B-EB8BEAE90921}"
+        "PackageCode" = "8:{F91DA0A1-C8C3-4C85-926A-C09DE53A61CA}"
         "UpgradeCode" = "8:{874C0E1A-E68E-4C61-B472-23D51C0B2273}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -592,7 +1210,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_76749BEA4413483EA7E3303048ADE997"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3CE26AAC2DF241638EB731951FD490C0"
             {
             "Name" = "8:提醒喝水小助手"
             "Arguments" = "8:"
@@ -600,13 +1218,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_243ACBEA9A374B9389001E9877133D96"
+            "Target" = "8:_CC7852CFB6F345E8BFBA5584BB1F5580"
             "Folder" = "8:_7B1ED4C6F86C41EF82622C9D6D1C768D"
             "WorkingFolder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
             "Icon" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8CA22B41E6B64D71AFA4E360815A08E1"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_409BDAA058C24DBFB54749B43E482E5A"
             {
             "Name" = "8:提醒喝水小助手"
             "Arguments" = "8:"
@@ -614,27 +1232,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_243ACBEA9A374B9389001E9877133D96"
-            "Folder" = "8:_97FE33C29E2940E9BF2A83AA5732240E"
-            "WorkingFolder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
-            "Icon" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_AB6A6C81A8934088B652EC11F5ABA8DD"
-            {
-            "Name" = "8:提醒喝水小助手"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_243ACBEA9A374B9389001E9877133D96"
+            "Target" = "8:_CC7852CFB6F345E8BFBA5584BB1F5580"
             "Folder" = "8:_0548B620C5474C3080AEBCA83632EEFD"
             "WorkingFolder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
             "Icon" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CE2EF53458C94BB8A5DD84C14C00847D"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A618183223184649B32F0F5C64660234"
             {
             "Name" = "8:提醒喝水小助手"
             "Arguments" = "8:"
@@ -642,8 +1246,8 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_243ACBEA9A374B9389001E9877133D96"
-            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Target" = "8:_CC7852CFB6F345E8BFBA5584BB1F5580"
+            "Folder" = "8:_97FE33C29E2940E9BF2A83AA5732240E"
             "WorkingFolder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
             "Icon" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
             "Feature" = "8:"
@@ -659,7 +1263,7 @@
             "Target" = "8:_DCF4AF6487A240D9B0353B254154E9AE"
             "Folder" = "8:_7B1ED4C6F86C41EF82622C9D6D1C768D"
             "WorkingFolder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
-            "Icon" = "8:"
+            "Icon" = "8:_A6521FF4CA744E65B076D23E6E5C463A"
             "Feature" = "8:"
             }
         }
@@ -1061,6 +1665,34 @@
         }
         "ProjectOutput"
         {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_738F300A78D548E18643E5CBC9959578"
+            {
+            "SourcePath" = "8:..\\RemindDrinking\\obj\\Debug\\RemindDrinking.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_25539BF463AB44E1B9488B26C7B00BC8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{29BAEBAA-C5A7-4F30-A810-0D3CE8FC4931}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
         }
     }
 }

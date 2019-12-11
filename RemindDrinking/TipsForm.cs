@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Resources;
 using System.Text;
@@ -13,8 +14,11 @@ namespace RemindDrinking
 {
     public partial class TipsForm : Form
     {
+        //图片的所在目录
+        private String exePath = Application.StartupPath + @"\image\";
+        //显示文字模式
         private int showMod;
-        private int index;
+        private int index; //关闭提示窗体计数器
         public TipsForm(int mod)
         {
             InitializeComponent();
@@ -23,15 +27,23 @@ namespace RemindDrinking
 
         private void TipsForm_Load(object sender, EventArgs e)
         {
-            //定时任务启动
+            //定时关闭提示窗体任务 启动
             TmrBackHome.Start();
+
             Random rd = new Random();
+
+            //文字提示的随机坐标
             int LabXPoint = rd.Next(10, 80);
             int LabYPoint = rd.Next(10, 400);
             this.LabMsg.Location = new System.Drawing.Point(LabXPoint, LabYPoint);
-            string photoName ="_" + rd.Next(1, 20).ToString();
-            this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject(photoName);
+
+            //获取 image文件夹下的文件名列表
+            List<string> imgFile = GetBcakImage();
+            //随机拿到一个图片
+            string imgName = imgFile[rd.Next(imgFile.Count)];
+            this.BackgroundImage = Image.FromFile(exePath + imgName);
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+
             switch (showMod)
             {
                 case 1:
@@ -56,11 +68,29 @@ namespace RemindDrinking
                     LabMsg.Text = "16:00  菇凉，喝口水吧！";
                     break;
                 case 8:
-                    LabMsg.Text = "17:00  各部门注意，马上要下班了！";
+                    LabMsg.Text = "17:00  注意，再喝一杯水，马上要下班了！";
                     break;
                 default:
                     break;
             }
+        }
+
+        /// <summary>
+        /// 获取image目录下文件名集合
+        /// </summary>
+        /// <returns></returns>
+        private List<string> GetBcakImage()
+        {
+            //相对路径，和程序exe同目录下
+            DirectoryInfo dir = new DirectoryInfo(exePath);
+
+            FileInfo[] fileInfo = dir.GetFiles();
+            List<string> fileNames = new List<string>();
+            foreach (FileInfo item in fileInfo)
+            {
+                fileNames.Add(item.Name);
+            }
+            return fileNames;
         }
 
         /// <summary>
