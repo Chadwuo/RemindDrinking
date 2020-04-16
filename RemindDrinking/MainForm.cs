@@ -1,4 +1,5 @@
-﻿using RemindDrinking.Properties;
+﻿using CCWin;
+using RemindDrinking.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace RemindDrinking
 {
-    public partial class MainForm : Form
+    public partial class MainForm : CCSkinMain
     {
         public MainForm()
         {
@@ -44,10 +45,34 @@ namespace RemindDrinking
 
         private void ExitMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("连续按时喝水两个星期，你就可以瘦成一道闪电了！确认要退出 喝水提醒小助手 吗？", "退出小助手", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("连续按时喝水，你就可以瘦成一道闪电了！确认要退出 喝水提醒小助手 吗？", "退出小助手", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 Application.Exit();
             }
+        }
+
+        private void SettingMenuItem_Click(object sender, EventArgs e)
+        {
+            GupTimeList.Visible = true;
+            
+            //遍历字典
+            foreach (KeyValuePair<string, string> kvp in AppSetting.Set.TimeSet)
+            {
+                int index = this.DgvTime.Rows.Add();
+                this.DgvTime.Rows[index].Cells[0].Value = kvp.Key+":00";
+                this.DgvTime.Rows[index].Cells[1].Value = kvp.Value;
+            }
+            AppSetting.Set.Save();
+        }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnSave_Click(object sender, EventArgs e)
+        {
+            GupTimeList.Visible = false;
         }
     }
 }

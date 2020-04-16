@@ -22,5 +22,17 @@ namespace RemindDrinking.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("30")]
+        public int backHomeTime {
+            get {
+                return ((int)(this["backHomeTime"]));
+            }
+            set {
+                this["backHomeTime"] = value;
+            }
+        }
     }
 }
