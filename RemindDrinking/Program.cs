@@ -1,8 +1,5 @@
 ﻿using FluentScheduler;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RemindDrinking
@@ -15,12 +12,13 @@ namespace RemindDrinking
         [STAThread]
         static void Main()
         {
-            System.Threading.Mutex mutex = new System.Threading.Mutex(true, "RemindDrinking", out bool isRuned);
+            _ = new System.Threading.Mutex(true, "RemindDrinking", out bool isRuned);
             if (isRuned)
             {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
-                //注册定时任务
+
+                // 注册定时任务
                 JobManager.Initialize(new SystemTipsScheduler());
                 Application.Run(new MainForm());
             }
