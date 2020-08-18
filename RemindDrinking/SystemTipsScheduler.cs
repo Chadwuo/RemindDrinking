@@ -13,15 +13,27 @@ namespace RemindDrinking
     {
         public SystemTipsScheduler()
         {
-            //Schedule a simple job to run at a specific time
-            Schedule(() => new ShowTipsMsgJob(1)).ToRunEvery(1).Days().At(9, 00);
-            Schedule(() => new ShowTipsMsgJob(2)).ToRunEvery(1).Days().At(10, 00);
-            Schedule(() => new ShowTipsMsgJob(3)).ToRunEvery(1).Days().At(11, 00);
-            Schedule(() => new ShowTipsMsgJob(4)).ToRunEvery(1).Days().At(12, 00);
-            Schedule(() => new ShowTipsMsgJob(5)).ToRunEvery(1).Days().At(14, 00);
-            Schedule(() => new ShowTipsMsgJob(6)).ToRunEvery(1).Days().At(15, 00);
-            Schedule(() => new ShowTipsMsgJob(7)).ToRunEvery(1).Days().At(16, 00);
-            Schedule(() => new ShowTipsMsgJob(8)).ToRunEvery(1).Days().At(18, 57);
+            //遍历字典
+            foreach (KeyValuePair<string, string> kvp in AppSetting.Set.TimeSet)
+            {
+                Schedule(() => new ShowTipsMsgJob(kvp.Value)).ToRunEvery(1).Days().At(Convert.ToInt32(kvp.Key), 00);
+            }
+           
+            //遍历key
+            //foreach (string key in set.TimeSet.Keys)
+            //{
+            //    Schedule(() => new ShowTipsMsgJob()).ToRunEvery(1).Days().At(Convert.ToInt32(key), 00);
+            //}
+
+            ////Schedule a simple job to run at a specific time
+            //Schedule(() => new ShowTipsMsgJob(1)).ToRunEvery(1).Days().At(9, 00);
+            //Schedule(() => new ShowTipsMsgJob(2)).ToRunEvery(1).Days().At(10, 00);
+            //Schedule(() => new ShowTipsMsgJob(3)).ToRunEvery(1).Days().At(11, 00);
+            //Schedule(() => new ShowTipsMsgJob(4)).ToRunEvery(1).Days().At(12, 00);
+            //Schedule(() => new ShowTipsMsgJob(5)).ToRunEvery(1).Days().At(14, 00);
+            //Schedule(() => new ShowTipsMsgJob(6)).ToRunEvery(1).Days().At(15, 00);
+            //Schedule(() => new ShowTipsMsgJob(7)).ToRunEvery(1).Days().At(16, 00);
+            //Schedule(() => new ShowTipsMsgJob(8)).ToRunEvery(1).Days().At(18, 57);
         }
         
     }
@@ -29,18 +41,18 @@ namespace RemindDrinking
     class ShowTipsMsgJob : IJob
     {
         /// <summary>
-        /// 模式：用于区分任务，以显示不同的背景
+        /// 提示文字消息
         /// </summary>
-        private int mod;
+        private string msg;
 
-        public ShowTipsMsgJob(int mod)
+        public ShowTipsMsgJob(string msg)
         {
-            this.mod = mod;
+            this.msg = msg;
         }
 
         public void Execute()
         {
-            TipsForm tips = new TipsForm(mod);
+            TipsForm tips = new TipsForm(msg);
             tips.ShowDialog();
         }
     }

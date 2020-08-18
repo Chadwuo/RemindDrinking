@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RemindDrinking.Properties;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -10,21 +11,13 @@ namespace RemindDrinking
     {
         // 图片的所在目录
         private String exePath = Application.StartupPath + @"\image\";
-
-        // 显示文字模式
-        private int showMod;
-
-        // 关闭提示窗体计数器
-        private int index;
-
-        /// <summary>
-        /// TipsForm
-        /// </summary>
-        /// <param name="mod">mod</param>
-        public TipsForm(int mod)
+        
+        private string msgText;//显示文字
+        private int index = Settings.Default.backHomeTime; //关闭提示窗体计数器
+        public TipsForm( string msg)
         {
             InitializeComponent();
-            showMod = mod;
+            this.msgText = msg;
         }
 
         /// <summary>
@@ -51,35 +44,37 @@ namespace RemindDrinking
             this.BackgroundImage = Image.FromFile(exePath + imgName);
             this.BackgroundImageLayout = ImageLayout.Stretch;
 
-            switch (showMod)
-            {
-                case 1:
-                    LabMsg.Text = "9:00  用最美的心情来迎接朝阳和第一杯水！";
-                    break;
-                case 2:
-                    LabMsg.Text = "10:00  小公主~ 要记得喝水哦！";
-                    break;
-                case 3:
-                    LabMsg.Text = "11:00  科学研究表明，此时喝水有助于瘦身！";
-                    break;
-                case 4:
-                    LabMsg.Text = "12:00  吃完饭，喝杯水，休息一会！";
-                    break;
-                case 5:
-                    LabMsg.Text = "14:00  喝最大杯的水，做最靓的仔！";
-                    break;
-                case 6:
-                    LabMsg.Text = "15:00  娘娘，喝水的时间到了！";
-                    break;
-                case 7:
-                    LabMsg.Text = "16:00  菇凉，喝口水吧！";
-                    break;
-                case 8:
-                    LabMsg.Text = "17:00  注意，再喝一杯水，马上要下班了！";
-                    break;
-                default:
-                    break;
-            }
+            LabMsg.Text = msgText;
+
+            //switch (showMod)
+            //{
+            //    case 1:
+            //        LabMsg.Text = "9:00  用最美的心情来迎接朝阳和第一杯水！";
+            //        break;
+            //    case 2:
+            //        LabMsg.Text = "10:00  小公主~ 要记得喝水哦！";
+            //        break;
+            //    case 3:
+            //        LabMsg.Text = "11:00  科学研究表明，此时喝水有助于瘦身！";
+            //        break;
+            //    case 4:
+            //        LabMsg.Text = "12:00  吃完饭，喝杯水，休息一会！";
+            //        break;
+            //    case 5:
+            //        LabMsg.Text = "14:00  喝最大杯的水，做最靓的仔！";
+            //        break;
+            //    case 6:
+            //        LabMsg.Text = "15:00  娘娘，喝水的时间到了！";
+            //        break;
+            //    case 7:
+            //        LabMsg.Text = "16:00  菇凉，喝口水吧！";
+            //        break;
+            //    case 8:
+            //        LabMsg.Text = "17:00  注意，再喝一杯水，马上要下班了！";
+            //        break;
+            //    default:
+            //        break;
+            //}
         }
 
         /// <summary>
@@ -107,8 +102,8 @@ namespace RemindDrinking
         /// <param name="e"></param>
         private void TmrBackHome_Tick(object sender, EventArgs e)
         {
-            index++;
-            if (index > 30)
+            index--;
+            if (index == 0)
             {
                 this.Close();
             }

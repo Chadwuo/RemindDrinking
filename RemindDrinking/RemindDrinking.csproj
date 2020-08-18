@@ -47,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>DrinkIco.ico</ApplicationIcon>
+    <ApplicationIcon>DrinkLogo.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
@@ -59,11 +59,15 @@
     <DelaySign>true</DelaySign>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CSkin, Version=16.1.14.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\cskin.16.1.14.3\lib\net40\CSkin.dll</HintPath>
+    </Reference>
     <Reference Include="FluentScheduler, Version=5.3.0.0, Culture=neutral, PublicKeyToken=b76503528a14ebd1, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentScheduler.5.3.0\lib\net40\FluentScheduler.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -75,6 +79,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EidtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EidtForm.Designer.cs">
+      <DependentUpon>EidtForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +93,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AppSetting.cs" />
     <Compile Include="SystemTipsScheduler.cs" />
     <Compile Include="TipsForm.cs">
       <SubType>Form</SubType>
@@ -90,6 +101,9 @@
     <Compile Include="TipsForm.Designer.cs">
       <DependentUpon>TipsForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="EidtForm.resx">
+      <DependentUpon>EidtForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DrinkIco.ico" />
+    <Content Include="DrinkLogo.ico" />
     <Content Include="image\1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -185,7 +200,14 @@
     <Content Include="image\9.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Resources\timg.jpg" />
+    <None Include="Resources\background2.jpg" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\CloseHove.png" />
+    <None Include="Resources\CloseDown.png" />
+    <None Include="Resources\Close.png" />
+    <None Include="Resources\btnToolHover.png" />
+    <None Include="Resources\btnToolDown.png" />
+    <None Include="Resources\btnTool.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
