@@ -63,9 +63,9 @@ namespace RemindDrinking.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _1 {
+        internal static System.Drawing.Bitmap background {
             get {
-                object obj = ResourceManager.GetObject("_1", resourceCulture);
+                object obj = ResourceManager.GetObject("background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace RemindDrinking.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _2 {
+        internal static System.Drawing.Bitmap background2 {
             get {
-                object obj = ResourceManager.GetObject("_2", resourceCulture);
+                object obj = ResourceManager.GetObject("background2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace RemindDrinking.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _3 {
+        internal static System.Drawing.Bitmap btnTool {
             get {
-                object obj = ResourceManager.GetObject("_3", resourceCulture);
+                object obj = ResourceManager.GetObject("btnTool", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace RemindDrinking.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _4 {
+        internal static System.Drawing.Bitmap btnToolDown {
             get {
-                object obj = ResourceManager.GetObject("_4", resourceCulture);
+                object obj = ResourceManager.GetObject("btnToolDown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace RemindDrinking.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _5 {
+        internal static System.Drawing.Bitmap btnToolHover {
             get {
-                object obj = ResourceManager.GetObject("_5", resourceCulture);
+                object obj = ResourceManager.GetObject("btnToolHover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace RemindDrinking.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _6 {
+        internal static System.Drawing.Bitmap Close {
             get {
-                object obj = ResourceManager.GetObject("_6", resourceCulture);
+                object obj = ResourceManager.GetObject("Close", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace RemindDrinking.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _7 {
+        internal static System.Drawing.Bitmap CloseDown {
             get {
-                object obj = ResourceManager.GetObject("_7", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseDown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,19 +133,9 @@ namespace RemindDrinking.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap _8 {
+        internal static System.Drawing.Bitmap CloseHove {
             get {
-                object obj = ResourceManager.GetObject("_8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap MainBJ {
-            get {
-                object obj = ResourceManager.GetObject("MainBJ", resourceCulture);
+                object obj = ResourceManager.GetObject("CloseHove", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

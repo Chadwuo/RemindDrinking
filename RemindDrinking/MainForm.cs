@@ -1,16 +1,11 @@
-﻿using System;
+﻿using CCWin;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RemindDrinking
 {
-    public partial class MainForm : Form
+    public partial class MainForm : CCSkinMain
     {
         public MainForm()
         {
@@ -22,6 +17,7 @@ namespace RemindDrinking
             e.Cancel = true;
             this.Hide();
             this.ShowInTaskbar = false;
+            notifyIcon1.ShowBalloonTip(5000, "喝水提醒小助手", "我在这里！", ToolTipIcon.Info);
         }
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -32,7 +28,24 @@ namespace RemindDrinking
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            LabExplain.Text = "我是你的“提醒喝水小助手-超超”\n我将会在接下来的日子里，每天守护在你身边提醒你喝水。\n希望你在看到提示消息的时候可以按照提示，喝一杯水！";
         }
+
+        private void AboutMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("喝水提醒小助手，已经正常启动。愿你有个美好的一天！\n源码地址：https://github.com/micahh28/RemindDrinking \n\t\t\t\twrite by micahh");
+        }
+
+        private void ExitMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("连续按时喝水，你就可以瘦成一道闪电了！确认要退出 喝水提醒小助手 吗？", "退出小助手", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void SettingMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
     }
 }
