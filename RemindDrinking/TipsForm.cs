@@ -1,21 +1,15 @@
 ﻿using RemindDrinking.Properties;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Resources;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RemindDrinking
 {
     public partial class TipsForm : Form
     {
-        //图片的所在目录
+        // 图片的所在目录
         private String exePath = Application.StartupPath + @"\image\";
         
         private string msgText;//显示文字
@@ -26,24 +20,29 @@ namespace RemindDrinking
             this.msgText = msg;
         }
 
+        /// <summary>
+        /// TipsForm_Load
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">EventArgs</param>
         private void TipsForm_Load(object sender, EventArgs e)
         {
-            //定时关闭提示窗体任务 启动
+            // 定时关闭提示窗体任务 启动
             TmrBackHome.Start();
 
             Random rd = new Random();
 
-            //文字提示的随机坐标
+            // 文字提示的随机坐标
             int LabXPoint = rd.Next(10, 80);
             int LabYPoint = rd.Next(10, 400);
-            this.LabMsg.Location = new System.Drawing.Point(LabXPoint, LabYPoint);
+            this.LabMsg.Location = new Point(LabXPoint, LabYPoint);
 
-            //获取 image文件夹下的文件名列表
+            // 获取 image文件夹下的文件名列表
             List<string> imgFile = GetBcakImage();
-            //随机拿到一个图片
+            // 随机拿到一个图片
             string imgName = imgFile[rd.Next(imgFile.Count)];
             this.BackgroundImage = Image.FromFile(exePath + imgName);
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
 
             LabMsg.Text = msgText;
 
@@ -81,7 +80,7 @@ namespace RemindDrinking
         /// <summary>
         /// 获取image目录下文件名集合
         /// </summary>
-        /// <returns></returns>
+        /// <returns>string</returns>
         private List<string> GetBcakImage()
         {
             //相对路径，和程序exe同目录下

@@ -1,14 +1,6 @@
 ﻿using CCWin;
-using RemindDrinking.Properties;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RemindDrinking
@@ -53,26 +45,7 @@ namespace RemindDrinking
 
         private void SettingMenuItem_Click(object sender, EventArgs e)
         {
-            GupTimeList.Visible = true;
-            
-            //遍历字典
-            foreach (KeyValuePair<string, string> kvp in AppSetting.Set.TimeSet)
-            {
-                int index = this.DgvTime.Rows.Add();
-                this.DgvTime.Rows[index].Cells[0].Value = kvp.Key+":00";
-                this.DgvTime.Rows[index].Cells[1].Value = kvp.Value;
-            }
-            AppSetting.Set.Save();
         }
 
-        private void BtnAdd_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnSave_Click(object sender, EventArgs e)
-        {
-            GupTimeList.Visible = false;
-        }
     }
 }
