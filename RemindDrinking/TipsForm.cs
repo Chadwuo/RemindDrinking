@@ -35,7 +35,6 @@ namespace RemindDrinking
             // 文字提示的随机坐标
             int LabXPoint = rd.Next(10, 80);
             int LabYPoint = rd.Next(10, 400);
-            this.LabMsg.Location = new Point(LabXPoint, LabYPoint);
 
             // 获取 image文件夹下的文件名列表
             List<string> imgFile = GetBcakImage();
@@ -43,8 +42,6 @@ namespace RemindDrinking
             string imgName = imgFile[rd.Next(imgFile.Count)];
             this.BackgroundImage = Image.FromFile(exePath + imgName);
             this.BackgroundImageLayout = ImageLayout.Stretch;
-
-            LabMsg.Text = msgText;
 
             //switch (showMod)
             //{

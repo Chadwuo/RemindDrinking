@@ -1,17 +1,32 @@
 ﻿using CCWin;
+using RemindDrinking.Config;
+using RemindDrinking.Core.DataAccess;
+using RemindDrinking.Core.HttpUtil;
+using RemindDrinking.Model;
 using System;
-using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace RemindDrinking
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class MainForm : CCSkinMain
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public MainForm()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = true;
@@ -28,6 +43,32 @@ namespace RemindDrinking
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            daImageArchive daImage = new daImageArchive();
+            ImageArchiveModel imageToday = daImage.GetImageToday();
+            if (imageToday != null)
+            {
+                this.BackgroundImage = Image.FromFile(imageToday.Fullpath);
+                return;
+            }
+
+            var bingImage = HttpUtil.GetResponse<BingImage>(ConfigDefault.BingImageUrl);
+            foreach (var img in bingImage.Images)
+            {
+                string dowloadUrl = ConfigDefault.BingBaseUrl + img.Url;
+                var imgPath = HttpDownUtil.HttpDownloadFile(dowloadUrl, string.Format(ConfigDefault.SavePath, AppDomain.CurrentDomain.BaseDirectory, DateTime.Now.ToString("yyyyMMdd")));
+
+                ImageArchiveModel imageArchive = new ImageArchiveModel()
+                {
+                    Date = DateTime.Now.ToString("yyyyMMdd"),
+                    Title = img.Title,
+                    Copyright = img.Copyright,
+                    Fullpath = imgPath
+                };
+
+                daImage.InsertImageArchive(imageArchive);
+
+                this.BackgroundImage = Image.FromFile(imageArchive.Fullpath);
+            }
         }
 
         private void AboutMenuItem_Click(object sender, EventArgs e)
@@ -46,6 +87,5 @@ namespace RemindDrinking
         private void SettingMenuItem_Click(object sender, EventArgs e)
         {
         }
-
     }
 }
