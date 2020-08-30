@@ -1,14 +1,11 @@
 ﻿using FluentScheduler;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RemindDrinking
 {
-    //一个开源任务调度框架  附上git地址
-    //https://github.com/fluentscheduler/FluentScheduler
+    // 一个开源任务调度框架  附上git地址
+    // https://github.com/fluentscheduler/FluentScheduler
     public class SystemTipsScheduler : Registry
     {
         public SystemTipsScheduler()

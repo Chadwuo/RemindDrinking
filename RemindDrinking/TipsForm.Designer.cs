@@ -42,15 +42,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::RemindDrinking.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1057, 543);
+            this.ClientSize = new System.Drawing.Size(827, 515);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TipsForm";
+            this.Opacity = 0.1D;
             this.Text = "TipsForm";
             this.TopMost = true;
+            this.TransparencyKey = System.Drawing.Color.Violet;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.TipsForm_Load);
             this.ResumeLayout(false);

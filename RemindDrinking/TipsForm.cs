@@ -19,7 +19,7 @@ namespace RemindDrinking
             InitializeComponent();
             this.msgText = msg;
         }
-
+        
         /// <summary>
         /// TipsForm_Load
         /// </summary>

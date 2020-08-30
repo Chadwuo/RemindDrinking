@@ -5,9 +5,17 @@ using System.Data;
 
 namespace RemindDrinking.Core.DataAccess
 {
+    /// <summary>
+    /// ImageArchive数据库操作类
+    /// </summary>
     public class daImageArchive
     {
-        public bool InsertImageArchive(ImageArchiveModel data)
+        /// <summary>
+        /// 写入一条图片数据
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        public bool InsertImageArchive(ImageArchive data)
         {
             try
             {
@@ -15,11 +23,11 @@ namespace RemindDrinking.Core.DataAccess
 
                 Dictionary<string, string> param = new Dictionary<string, string>()
                 {
-                    {ImageArchiveModel.DBCOL_IMG_DATE, data.Date},
-                    {ImageArchiveModel.DBCOL_IMG_TITLE, data.Title},
-                    {ImageArchiveModel.DBCOL_IMG_COPYRIGHT, data.Copyright},
-                    {ImageArchiveModel.DBCOL_IMG_STORY, data.Story},
-                    {ImageArchiveModel.DBCOL_IMG_FULLPATH, data.Fullpath}
+                    {ImageArchive.DBCOL_IMG_DATE, data.Date},
+                    {ImageArchive.DBCOL_IMG_TITLE, data.Title},
+                    {ImageArchive.DBCOL_IMG_COPYRIGHT, data.Copyright},
+                    {ImageArchive.DBCOL_IMG_STORY, data.Story},
+                    {ImageArchive.DBCOL_IMG_FULLPATH, data.Fullpath}
                 };
 
                 SqliteHelper.ExecuteNonQuery(cmdText, param);
@@ -31,7 +39,11 @@ namespace RemindDrinking.Core.DataAccess
             }
         }
 
-        public ImageArchiveModel GetImageRandomly()
+        /// <summary>
+        /// 随机获取一条图片数据
+        /// </summary>
+        /// <returns></returns>
+        public ImageArchive GetImageRandomly()
         {
             string cmdText = "SELECT * FROM IMAGEARCHIVE ORDER BY RANDOM() limit 1";
             DataRow row = SqliteHelper.ExecuteDataRow(cmdText, null);
@@ -39,15 +51,19 @@ namespace RemindDrinking.Core.DataAccess
             {
                 return null;
             }
-            return new ImageArchiveModel(row);
+            return new ImageArchive(row);
         }
 
-        public ImageArchiveModel GetImageToday()
+        /// <summary>
+        /// 获取今日的图片数据
+        /// </summary>
+        /// <returns></returns>
+        public ImageArchive GetImageToday()
         {
             string cmdText = "SELECT * FROM IMAGEARCHIVE where IMG_DATE= @IMG_DATE";
             Dictionary<string, string> param = new Dictionary<string, string>()
             {
-                {ImageArchiveModel.DBCOL_IMG_DATE, DateTime.Now.ToString("yyyyMMdd")}
+                {ImageArchive.DBCOL_IMG_DATE, DateTime.Now.ToString("yyyyMMdd")}
             };
 
             DataRow row = SqliteHelper.ExecuteDataRow(cmdText, param);
@@ -55,7 +71,7 @@ namespace RemindDrinking.Core.DataAccess
             {
                 return null;
             }
-            return new ImageArchiveModel(row);
+            return new ImageArchive(row);
         }
     }
 }

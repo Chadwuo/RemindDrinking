@@ -1,9 +1,9 @@
 ﻿namespace RemindDrinking.Model
 {
-    public class ImageArchiveModel
+    public class ImageArchive
     {
         /// <summary>
-        /// 表名称：取号机设备菜单
+        /// 表名称：图片档案表
         /// </summary>
         public const string TABLENAME = "IMAGEARCHIVE";
 
@@ -56,7 +56,7 @@
         /// 图片路径
         /// </summary>
         public System.String Fullpath { get; set; }
-
+        
 
         public void LoadFromDataRow(System.Data.DataRow row)
         {
@@ -70,7 +70,7 @@
         /// <summary>
         /// 默认构造函数。
         /// </summary>
-        public ImageArchiveModel()
+        public ImageArchive()
         {
         }
 
@@ -78,7 +78,7 @@
         /// 从数据行对象中初始化类实例。
         /// </summary>
         /// <param name="row">数据行对象。</param>
-        public ImageArchiveModel(System.Data.DataRow row)
+        public ImageArchive(System.Data.DataRow row)
             : this()
         {
             LoadFromDataRow(row);
