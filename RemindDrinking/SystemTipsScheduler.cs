@@ -1,4 +1,5 @@
 ﻿using FluentScheduler;
+using RemindDrinking.Core.DataAccess;
 using System;
 using System.Collections.Generic;
 
@@ -10,12 +11,21 @@ namespace RemindDrinking
     {
         public SystemTipsScheduler()
         {
+            daSchedulerConfig daScheduler = new daSchedulerConfig();
+            var schedulerList = daScheduler.GetSchedulerConfig();
+
+            foreach (var scheduler in schedulerList)
+            {
+                //DateTime.TryParse(scheduler.Date, out DateTime date);
+                DateTime date = DateTime.ParseExact(scheduler.Date, "HH:mm", System.Globalization.CultureInfo.CurrentCulture);
+            }
+
             //遍历字典
             foreach (KeyValuePair<string, string> kvp in AppSetting.Set.TimeSet)
             {
                 Schedule(() => new ShowTipsMsgJob(kvp.Value)).ToRunEvery(1).Days().At(Convert.ToInt32(kvp.Key), 00);
             }
-           
+
             //遍历key
             //foreach (string key in set.TimeSet.Keys)
             //{
@@ -32,9 +42,9 @@ namespace RemindDrinking
             //Schedule(() => new ShowTipsMsgJob(7)).ToRunEvery(1).Days().At(16, 00);
             //Schedule(() => new ShowTipsMsgJob(8)).ToRunEvery(1).Days().At(18, 57);
         }
-        
+
     }
-    
+
     class ShowTipsMsgJob : IJob
     {
         /// <summary>

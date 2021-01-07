@@ -1,13 +1,12 @@
 ﻿using RemindDrinking.Model;
-using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RemindDrinking.Core.DataAccess
 {
+    /// <summary>
+    /// 定时故事 数据库操作类
+    /// </summary>
     public class daSoul
     {
         /// <summary>
@@ -18,9 +17,9 @@ namespace RemindDrinking.Core.DataAccess
         {
             string cmdText = "SELECT * FROM SOUL WHERE SOU_TYPE = @SOU_TYPE ORDER BY RANDOM() limit 1";
             Dictionary<string, string> param = new Dictionary<string, string>()
-                {
-                    {Soul.DBCOL_SOU_TYPE, type}
-                };
+            {
+                {Soul.DBCOL_SOU_TYPE, type}
+            };
 
             DataRow row = SqliteHelper.ExecuteDataRow(cmdText, param);
             if (row == null)

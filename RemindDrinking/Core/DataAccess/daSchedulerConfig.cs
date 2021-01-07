@@ -5,6 +5,9 @@ using System.Data;
 
 namespace RemindDrinking.Core.DataAccess
 {
+    /// <summary>
+    /// 定时配置 数据库操作类
+    /// </summary>
     public class daSchedulerConfig
     {
         /// <summary>
@@ -21,7 +24,7 @@ namespace RemindDrinking.Core.DataAccess
                 Dictionary<string, string> param = new Dictionary<string, string>()
                 {
                     {SchedulerConfig.DBCOL_SEG_DATE, data.Date},
-                    {SchedulerConfig.DBCOL_SEG_TITEL, data.Title}
+                    {SchedulerConfig.DBCOL_SEG_STORY, data.Story}
                 };
 
                 SqliteHelper.ExecuteNonQuery(cmdText, param);

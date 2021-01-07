@@ -18,19 +18,19 @@
         public System.String Date { get; set; }
 
         /// <summary>
-        /// 字段SEG_TITEL: 任务标题
+        /// 字段SEG_TITEL: 任务故事
         /// </summary>
-        public const string DBCOL_SEG_TITEL = "SEG_TITEL";
+        public const string DBCOL_SEG_STORY = "SEG_STORY";
 
         /// <summary>
-        /// 任务标题
+        /// 任务故事
         /// </summary>
-        public System.String Title { get; set; }
+        public System.String Story { get; set; }
 
         public void LoadFromDataRow(System.Data.DataRow row)
         {
             Date = row[DBCOL_SEG_DATE].ToString();
-            Title = row[DBCOL_SEG_TITEL].ToString();
+            Story = row[DBCOL_SEG_STORY].ToString();
         }
 
         /// <summary>

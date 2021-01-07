@@ -6,7 +6,7 @@ using System.Data;
 namespace RemindDrinking.Core.DataAccess
 {
     /// <summary>
-    /// ImageArchive数据库操作类
+    /// ImageArchive 数据库操作类
     /// </summary>
     public class daImageArchive
     {

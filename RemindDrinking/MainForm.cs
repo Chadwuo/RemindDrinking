@@ -116,5 +116,6 @@ namespace RemindDrinking
         private void SettingMenuItem_Click(object sender, EventArgs e)
         {
         }
+
     }
 }
